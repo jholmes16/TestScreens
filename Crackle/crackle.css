@@ -1,0 +1,84 @@
+body {
+	background-color: #1D1D1D;
+}
+
+table {
+	width: 1439px;
+	border-collapse: collapse;
+}
+
+table td {
+	height: 355px;
+	width: 330px; 
+	text-align: center;
+}
+
+a:hover {
+	border-bottom: thick solid #F96;
+}
+
+a:active {
+	border-bottom: thick solid #F96;
+}
+
+#container {
+	margin: 0 auto;
+	width: 1439px;
+}
+
+.pageLink {
+	position: absolute;
+	display: block;
+	height: auto;
+	width: auto;
+}
+
+.firstlink {
+	position: absolute;
+	display: block;
+	height: 37px;
+	width: 150px;
+	margin-left: 140px;
+	margin-top: 13px;
+}
+
+.secondlink {
+	position: absolute;
+	display: block;
+	height: 37px;
+	width: 150px;
+	margin-left: 315px;
+	margin-top: 13px;
+}
+
+.thirdlink {
+	position: absolute;
+	display: block;
+	height: 37px;
+	width: 150px;
+	margin-left: 490px;
+	margin-top: 13px;
+}
+
+.fourthlink {
+	position: absolute;
+	display: block;
+	height: 37px;
+	width: 150px;
+	margin-left: 663px;
+	margin-top: 13px;
+}
+
+.icon {
+	display:block;
+	width: 220px;
+	height: 329px;
+	margin: auto;
+}
+
+.fotorama__html div,
+.fotorama__html a {
+  display: block;
+  height: 100%;
+  background: url(_.gif);
+}
